@@ -1,0 +1,5 @@
+/node_modules/
+/d*st/
+
+request.http
+.env
