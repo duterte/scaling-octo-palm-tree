@@ -11,7 +11,7 @@ import { routes } from './modules';
 
 dontenv.config();
 const app = express();
-const PORT: number = Number(process.env.PORT) || 5000;
+const PORT: number = Number(process.env.PORT) || 8080;
 const cpus = os.cpus().length;
 const log = debug('http:server');
 const internet = ip.v4();
